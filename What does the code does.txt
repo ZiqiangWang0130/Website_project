@@ -1,0 +1,9 @@
+Real_Time_Web_Browser_in_Pi.py is a project using a raspberry pi and a monitor to display hydrometric station real-time information. 
+I configure and programed a raspberry pi to complete the mission. 
+The raspberry pi will open a browser in pi (Chromium by default but I used Firefox) and go to the real-time water office website home page. 
+In the real-time water office website homepage, it shows a map session displayed geometric location of all hydrometric stations. 
+This project requires that the webpage should go from the office website homepage to stage table and discharge table at a random station with 30 days data every 15 seconds. 
+Also, other valuable feature is if there is an image taking by riverside camera which shows the river view from bank or bridge, then the webpage should show the image after displayed the stage table. 
+When the program is running, it also report the station number it went through.  
+
+Real_Time_Web_Browser_in_PC.py do the same thing using PC.
